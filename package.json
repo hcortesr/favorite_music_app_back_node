@@ -1,0 +1,29 @@
+{
+  "name": "favorite_music_app_back_node",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hcortesr/favorite_music_app_back_node.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Hector CR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hcortesr/favorite_music_app_back_node/issues"
+  },
+  "homepage": "https://github.com/hcortesr/favorite_music_app_back_node#readme",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0"
+  }
+}
