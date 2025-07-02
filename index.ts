@@ -3,6 +3,10 @@ import { configDotenv } from 'dotenv';
 import e from 'express';
 import { Acces_token } from './interfaces';
 import fs from 'node:fs/promises'
+import session from 'express-session';
+
+
+configDotenv();
 
 let artists_IDs: string = '';
 
@@ -20,7 +24,6 @@ fs.readFile('artists_list.json', 'utf-8')
 
 })
 
-configDotenv();
 
 const PORT: any = process.env.PORT || 3000
 const CLIENT_ID: string = process.env.CLIENT_ID || '';
